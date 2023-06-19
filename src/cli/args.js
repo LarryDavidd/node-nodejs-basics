@@ -1,4 +1,4 @@
-const { argv, stdout } = process;
+import { argv, stdout } from "process";
 
 const parseArgs = () => {
   const arg = argv.slice(2);
